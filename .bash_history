@@ -57,3 +57,29 @@ ls
 rm tomcat-users.xml
 sudo rm tomcat-users.xml
 ls
+ping google.com
+mvn -version
+cd /usr/local/src
+www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+wget https://www-eu.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz
+sudo tar xzf aapache-maven-3.6.0-bin.tar.gz
+ http://www-us.apache.org/dist/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
+sudo wget https://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+sudo yum install -y apache-maven
+mvn --version
+mvn archetype:generate
+cd /
+cd
+mvn archetype:generate
+git init
+sudo yum install git
+git init
+git add .
+git commit -m
+git remote add origin https://github.com/Ramu87/maven.git
+git push -u origin master
+git add README.md
+git commit -m "initial commit"
+git pusg origin master
+git push origin master
+ping google.com
